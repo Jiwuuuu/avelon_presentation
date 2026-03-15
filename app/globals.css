@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Gilroy Font ──────────────────────────────────── */
+/* Copy Gilroy-Light.otf and Gilroy-ExtraBold.otf     */
+/* from the andrei portfolio into /public/fonts/       */
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/Gilroy-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/Gilroy-ExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ─── Base ─────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* Root size for TV legibility — 1rem = 20px everywhere */
+  font-size: 20px;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Gilroy", sans-serif;
+  background-color: #f5f5f5;
+  color: #2a2a2a;
+  cursor: default;
+}
+
+/* ─── Utilities ────────────────────────────────────── */
+.font-gilroy {
+  font-family: "Gilroy", sans-serif;
+}
+
+/* Thin decorative rule used throughout */
+.deco-line {
+  height: 1px;
+  width: 6rem;
+  background-color: currentColor;
+  flex-shrink: 0;
+}
+
+/* Overline label style */
+.overline {
+  font-size: 0.72rem;
+  font-weight: 300;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
