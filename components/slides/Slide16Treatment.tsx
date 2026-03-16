@@ -8,19 +8,19 @@ interface Props { direction?: 1 | -1; }
 const treatments = [
   {
     tool: "Data Collection & Processing",
-    use: "Logs, ETH price datasets, blockchain records, and surveys systematically recorded. Data is cleaned, normalized, and missing values handled before model training.",
+    use: "Logs, ETH prices, blockchain records, and surveys are recorded, cleaned, and prepared for model training.",
   },
   {
     tool: "AI Model Evaluation",
-    use: "Predictive models assessed using accuracy, precision, recall, and Mean Absolute Error (MAE) to measure forecasting performance.",
+    use: "Models measured on accuracy, precision, recall, and MAE to see how well they predict.",
   },
   {
     tool: "System Performance Analysis",
-    use: "Transaction processing time, smart contract gas consumption, API response latency, and uptime measured using mean, percentage, and standard deviation.",
+    use: "Transaction time, gas costs, API latency, and uptime tracked using mean, percentage, and standard deviation.",
   },
   {
     tool: "Survey & Comparative Analysis",
-    use: "Likert-scale survey responses analyzed via weighted mean. System efficiency benchmarked against established baseline indicators.",
+    use: "Survey responses analyzed with weighted mean. System compared against baseline benchmarks.",
   },
 ];
 

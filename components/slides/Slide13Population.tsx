@@ -8,15 +8,15 @@ interface Props { direction?: 1 | -1; }
 const blocks = [
   {
     heading: "Cryptocurrency Users",
-    body: "Individuals with prior exposure to digital wallets, blockchain transactions, and decentralized apps. They evaluate the system's blockchain-facing features. — 1 respondent.",
+    body: "People who already use crypto wallets and DeFi apps. They test Avelon's blockchain features. — 1 respondent.",
   },
   {
     heading: "Potential Borrowers",
-    body: "Individuals interested in digital lending platforms who represent Avelon's intended user base. They assess usability, loan flow, and collateral management. — 5 respondents.",
+    body: "People interested in digital lending who represent Avelon's target users. They test the loan flow and usability. — 5 respondents.",
   },
   {
     heading: "Locale",
-    body: "PHINMA – University of Pangasinan. Development and testing done in a controlled environment using local machines and cloud services. Blockchain runs on a local Ethereum test network — no real funds.",
+    body: "PHINMA – University of Pangasinan. All development and testing done locally and on cloud services. Blockchain runs on a test network — no real funds.",
   },
 ];
 

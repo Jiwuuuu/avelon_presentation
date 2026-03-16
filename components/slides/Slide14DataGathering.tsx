@@ -9,27 +9,27 @@ const techniques = [
   {
     num: "01",
     method: "Literature Review",
-    desc: "Review of academic journals, DeFi research, blockchain whitepapers, and AI credit scoring studies to establish the system's theoretical foundation.",
+    desc: "Studied DeFi research, blockchain whitepapers, and AI credit scoring papers to build the system's foundation.",
   },
   {
     num: "02",
     method: "Secondary Data Collection",
-    desc: "Historical ETH price data and blockchain transaction records from public crypto databases — used to train and validate AI models.",
+    desc: "Gathered historical ETH prices and blockchain records from public databases to train and test AI models.",
   },
   {
     num: "03",
     method: "System Logging",
-    desc: "Automated logs during testing capture transaction processing time, smart contract gas usage, API response time, and error rates.",
+    desc: "Auto-logged transaction time, gas usage, API response time, and errors during testing.",
   },
   {
     num: "04",
     method: "Survey Questionnaires",
-    desc: "Likert-scale forms distributed to selected participants after pilot testing to measure usability, functionality, and overall user experience.",
+    desc: "Likert-scale forms given to testers to measure usability, functionality, and user experience.",
   },
   {
     num: "05",
     method: "Experimental Testing",
-    desc: "Controlled experiments evaluate AI model accuracy, smart contract execution, and system scalability under simulated transaction loads.",
+    desc: "Tested AI model accuracy, smart contract execution, and system performance under simulated loads.",
   },
 ];
 

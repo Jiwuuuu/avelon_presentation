@@ -10,18 +10,18 @@ const sources = [
     type: "Primary Sources",
     color: "#FF5C00",
     items: [
-      "Cryptocurrency users with direct exposure to blockchain transactions and DeFi apps",
-      "Potential borrowers representing Avelon's intended user base (digital lending platform users)",
-      "System-generated logs, test results, and transaction data from the Avelon prototype",
+      "Crypto users who have used wallets and DeFi apps",
+      "Potential borrowers — Avelon's target users",
+      "System logs, test results, and transaction data from the prototype",
     ],
   },
   {
     type: "Secondary Sources",
     color: "#6B6B6B",
     items: [
-      "Historical ETH price data and blockchain transaction records from public crypto databases",
-      "Academic journals on DeFi, smart contracts, AI-based credit scoring, and volatility prediction",
-      "Technical documentation (Ethereum, Solidity, Hono.js, Prisma, etc.) and related literature",
+      "Historical ETH price data and blockchain records from public databases",
+      "Academic papers on DeFi, smart contracts, credit scoring, and price prediction",
+      "Technical docs (Ethereum, Solidity, Hono.js, Prisma, etc.)",
     ],
   },
 ];

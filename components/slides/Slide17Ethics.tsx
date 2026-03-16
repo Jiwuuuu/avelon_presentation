@@ -8,27 +8,27 @@ interface Props { direction?: 1 | -1; }
 const considerations = [
   {
     title: "Data Security",
-    desc: "Encryption, secure authentication, and controlled access protocols protect all collected data from unauthorized access or breaches.",
+    desc: "All data is encrypted and access-controlled. Only authorized researchers can view it.",
   },
   {
     title: "Anonymization",
-    desc: "Personal identifiers collected during user evaluation are anonymized to protect participant confidentiality.",
+    desc: "Any personal info collected during testing is anonymized to protect participants.",
   },
   {
     title: "Inclusive Design",
-    desc: "Equal participation regardless of technical background. System designed to be accessible to users with varying blockchain literacy.",
+    desc: "Anyone can participate regardless of technical skill. The interface works for all levels of blockchain experience.",
   },
   {
     title: "Transparency",
-    desc: "Participants are fully informed about the study purpose, their data use, and all testing procedures before they participate.",
+    desc: "Participants are told upfront what the study is about, how their data is used, and what testing involves.",
   },
   {
     title: "No Financial Risk",
-    desc: "All blockchain transactions use a local test network — no real funds are involved at any point in the study.",
+    desc: "Everything runs on a test network — no real money is involved at any point.",
   },
   {
     title: "Accountability",
-    desc: "All development, testing, and analytical methods are documented openly to ensure credibility and reproducibility.",
+    desc: "All development and testing methods are documented so results can be verified.",
   },
 ];
 

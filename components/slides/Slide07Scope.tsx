@@ -6,17 +6,17 @@ import SlideWrapper from "@/components/SlideWrapper";
 interface Props { direction?: 1 | -1; }
 
 const scope = [
-  "ETH-based lending with AI-driven price volatility prediction and automated borrower risk scoring.",
-  "Smart contract-based loan management — loan creation, repayment enforcement, and collateral liquidation.",
-  "Web app and mobile app as user interfaces, backed by a RESTful API and PostgreSQL database.",
-  "Prototype system demonstrating capital efficiency improvements and accessible lending for non-technical users.",
+  "ETH lending with AI price prediction and borrower risk scoring.",
+  "Smart contracts handle loan creation, repayment, and collateral liquidation.",
+  "Web and mobile apps connected to a REST API and PostgreSQL database.",
+  "Built as a working prototype focused on better collateral use and easier lending.",
 ];
 
 const delimitations = [
-  "Limited to Ethereum-based assets only — no other blockchains or cross-chain support.",
-  "Developed as a prototype — no real user funds, no mainnet deployment.",
-  "No assessment of long-term financial outcomes or profitability.",
-  "Formal third-party security audits and regulatory compliance review are out of scope.",
+  "Ethereum only — no other blockchains or cross-chain.",
+  "Prototype only — no real funds, no mainnet.",
+  "Does not measure long-term financial outcomes.",
+  "No third-party security audit or regulatory review.",
 ];
 
 export default function Slide07Scope({ direction = 1 }: Props) {

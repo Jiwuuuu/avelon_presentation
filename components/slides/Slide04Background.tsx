@@ -6,10 +6,10 @@ import SlideWrapper from "@/components/SlideWrapper";
 interface Props { direction?: 1 | -1; }
 
 const points = [
-  "Traditional banks are slow, expensive, and exclude millions who lack credit history. DeFi removes intermediaries — but most platforms still have big problems.",
-  "Existing DeFi lending (Aave, Compound) forces borrowers to over-collateralize: deposit more than you borrow. This locks up capital and limits who can participate.",
-  "ETH price volatility triggers sudden liquidations. Current platforms only react after collateral drops below a threshold — they cannot predict risk in advance.",
-  "AI models like LSTM and GRU are proven at forecasting crypto prices, but almost no DeFi platform integrates them. Avelon bridges this gap.",
+  "Traditional banks are slow, costly, and lock out people without credit history. DeFi cuts out the middleman — but still has major gaps.",
+  "Platforms like Aave and Compound require borrowers to deposit more than they borrow. That ties up capital and limits access.",
+  "ETH prices swing fast. Current platforms only react after collateral drops too low — they can't see risk coming.",
+  "AI models (LSTM, GRU) can forecast crypto prices, yet almost no DeFi platform uses them. Avelon fills that gap.",
 ];
 
 export default function Slide04Background({ direction = 1 }: Props) {

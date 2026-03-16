@@ -6,12 +6,12 @@ import SlideWrapper from "@/components/SlideWrapper";
 interface Props { direction?: 1 | -1; }
 
 const beneficiaries = [
-  { group: "Borrowers", desc: "More accessible lending with fairer collateral requirements and reduced risk of unexpected liquidations." },
-  { group: "Blockchain Developers", desc: "A practical reference architecture for combining predictive AI with automated smart contract logic." },
-  { group: "Fintech Sector", desc: "Demonstrates how AI-driven forecasting improves capital efficiency and risk governance in DeFi." },
-  { group: "Policymakers & Regulators", desc: "Empirical data on safeguards and failure modes to inform consumer protection frameworks for DeFi." },
-  { group: "Academic Community", desc: "Methodology, model results, and evaluation metrics as a resource for future DeFi and AI research." },
-  { group: "Proponents & Institution", desc: "Hands-on multidisciplinary experience in blockchain development, applied ML, and software evaluation." },
+  { group: "Borrowers", desc: "Fairer collateral requirements and fewer surprise liquidations make lending more accessible." },
+  { group: "Blockchain Developers", desc: "A working example of combining AI predictions with smart contract automation." },
+  { group: "Fintech Sector", desc: "Shows how AI forecasting can improve how DeFi platforms manage risk and capital." },
+  { group: "Policymakers & Regulators", desc: "Real data on how an AI-enhanced lending platform works, fails, and can be governed." },
+  { group: "Academic Community", desc: "Methods, model results, and metrics that future researchers can build on." },
+  { group: "Proponents & Institution", desc: "Hands-on experience in blockchain development, machine learning, and software testing." },
 ];
 
 export default function Slide08Significance({ direction = 1 }: Props) {

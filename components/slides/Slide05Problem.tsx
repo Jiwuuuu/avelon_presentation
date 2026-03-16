@@ -6,9 +6,9 @@ import SlideWrapper from "@/components/SlideWrapper";
 interface Props { direction?: 1 | -1; }
 
 const problems = [
-  "What specific limitations do existing DeFi lending platforms have in risk assessment, collateral efficiency, and volatility management?",
-  "What necessary features should Avelon include — AI-driven ETH volatility prediction, borrower risk scoring, adaptive collateral mechanisms, and automated smart contract enforcement?",
-  "How does the developed Avelon platform perform in security, usability, and reliability when evaluated through system testing and user acceptance?",
+  "What are the limitations of existing DeFi lending platforms in managing risk, collateral, and price volatility?",
+  "What features does Avelon need — such as ETH price prediction, risk scoring, flexible collateral, and automated smart contracts?",
+  "How does Avelon perform in terms of security, usability, and reliability based on testing and user feedback?",
 ];
 
 export default function Slide05Problem({ direction = 1 }: Props) {
