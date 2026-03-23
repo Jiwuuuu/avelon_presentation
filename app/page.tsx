@@ -13,18 +13,20 @@ import Slide05Problem from "@/components/slides/Slide05Problem";
 import Slide06Objectives from "@/components/slides/Slide06Objectives";
 import Slide07Scope from "@/components/slides/Slide07Scope";
 import Slide08Significance from "@/components/slides/Slide08Significance";
-import Slide09Methodology from "@/components/slides/Slide09Methodology";
-import Slide10MethodologyConnection from "@/components/slides/Slide10MethodologyConnection";
-import Slide11Architecture from "@/components/slides/Slide11Architecture";
-import Slide12Tools from "@/components/slides/Slide12Tools";
-import Slide13Population from "@/components/slides/Slide13Population";
-import Slide14DataGathering from "@/components/slides/Slide14DataGathering";
-import Slide15Sources from "@/components/slides/Slide15Sources";
-import Slide16Treatment from "@/components/slides/Slide16Treatment";
-import Slide17Ethics from "@/components/slides/Slide17Ethics";
-import Slide18References from "@/components/slides/Slide18References";
-import Slide19Walkthrough from "@/components/slides/Slide19Walkthrough";
-import Slide20ThankYou from "@/components/slides/Slide20ThankYou";
+import Slide09RegulatoryFramework from "@/components/slides/Slide09RegulatoryFramework";
+import Slide10Methodology from "@/components/slides/Slide10Methodology";
+import Slide11MethodologyConnection from "@/components/slides/Slide11MethodologyConnection";
+import Slide12Architecture from "@/components/slides/Slide12Architecture";
+import Slide13FinanceBlockchain from "@/components/slides/Slide13FinanceBlockchain";
+import Slide14Tools from "@/components/slides/Slide14Tools";
+import Slide15Population from "@/components/slides/Slide15Population";
+import Slide16DataGathering from "@/components/slides/Slide16DataGathering";
+import Slide17Sources from "@/components/slides/Slide17Sources";
+import Slide18Treatment from "@/components/slides/Slide18Treatment";
+import Slide19Ethics from "@/components/slides/Slide19Ethics";
+import Slide20References from "@/components/slides/Slide20References";
+import Slide21Walkthrough from "@/components/slides/Slide21Walkthrough";
+import Slide22ThankYou from "@/components/slides/Slide22ThankYou";
 
 const SLIDES = [
   Slide01Title,
@@ -35,18 +37,20 @@ const SLIDES = [
   Slide06Objectives,
   Slide07Scope,
   Slide08Significance,
-  Slide09Methodology,
-  Slide10MethodologyConnection,
-  Slide11Architecture,
-  Slide12Tools,
-  Slide13Population,
-  Slide14DataGathering,
-  Slide15Sources,
-  Slide16Treatment,
-  Slide17Ethics,
-  Slide18References,
-  Slide19Walkthrough,
-  Slide20ThankYou,
+  Slide09RegulatoryFramework,
+  Slide10Methodology,
+  Slide11MethodologyConnection,
+  Slide12Architecture,
+  Slide13FinanceBlockchain,
+  Slide14Tools,
+  Slide15Population,
+  Slide16DataGathering,
+  Slide17Sources,
+  Slide18Treatment,
+  Slide19Ethics,
+  Slide20References,
+  Slide21Walkthrough,
+  Slide22ThankYou,
 ];
 
 export default function PresentationPage() {
