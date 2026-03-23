@@ -10,7 +10,6 @@ const beneficiaries = [
   { group: "Blockchain Developers", desc: "A working example of combining AI predictions with smart contract automation." },
   { group: "Fintech Sector", desc: "Shows how AI forecasting can improve how DeFi platforms manage risk and capital." },
   { group: "Policymakers & Regulators", desc: "Real data on how an AI-enhanced lending platform works, fails, and can be governed." },
-  { group: "Academic Community", desc: "Methods, model results, and metrics that future researchers can build on." },
   { group: "Proponents & Institution", desc: "Hands-on experience in blockchain development, machine learning, and software testing." },
 ];
 
